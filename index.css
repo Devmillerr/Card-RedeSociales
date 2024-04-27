@@ -8,10 +8,27 @@ body {
   position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {
-    margin: 30px;
+    margin-right:  30px;
+    margin-left: 30px;
+
   }
+  .header1{
+    font-size: 14px;
+  }
+  
+}
+@media only screen and (max-width: 350px ) {
+  body {
+    margin-right:  30px;
+    margin-left: 30px;
+
+  }
+  .header1{
+    font-size: 14px;
+  }
+  
 }
 
 video {
@@ -38,12 +55,18 @@ video {
   transition: color 0.9s ease;
   }
 
+  
 h2:hover{
   color: #252525;
   transition: color 0.9s ease;
   cursor: pointer;
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  margin-top: -25px;
+}
 
 .card {
   width: 90%;
@@ -68,7 +91,6 @@ h2:hover{
   }
   
 
-
 article {
   position: relative;
 }
@@ -78,7 +100,6 @@ article {
   display: flex;
   justify-content: center;
 }
-
 
 .btn {
   height: 50px;
@@ -138,9 +159,6 @@ img:hover {
   mask-image:none;
   transform: translateY(5px);
 }
-
-
-
 
 .links {
   margin: 20px;
